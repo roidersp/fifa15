@@ -694,6 +694,31 @@ padding-top: 10px
 	background-position: center center;
 }
 
+
+.indepth_tl_icono.goles{
+	background-image: url(../images/Icono_goles.svg);
+}
+
+.indepth_tl_icono.jugador{
+	background-image: url(../images/Icono_jugador.svg);
+}
+
+.indepth_tl_icono.logros{
+	background-image: url(../images/Icono_logros.svg);
+}
+
+.indepth_tl_icono.uniforme{
+	background-image: url(../images/Icono_uniforme.svg);
+}
+
+.indepth_tl_icono.estadio{
+	background-image: url(../images/Icono_estadio.svg);
+}
+
+.indepth_tl_icono.monedas{
+	background-image: url(../images/Icono_monedas.svg);
+}
+
 .indepth_tl_text{
 	display: table;
 	padding: 10px 0px;
@@ -706,7 +731,6 @@ padding-top: 10px
 	margin-bottom: 4px;
 	line-height: 18px;
 	font-style: italic;
-	
 }
 
 .indepth_tl_dato{
@@ -715,16 +739,13 @@ padding-top: 10px
 	line-height: 18px;
 }
 
-
 @media screen and (max-width:1023px) {
 	.indepth_quotes_cont{
 		width: 500px;
 	}
-	
 	.indepth_quote_box{
 		margin-bottom: 15px;
 	}
-	
 	.indepth_page_body{
 		width: 100%;
 	}
@@ -743,8 +764,7 @@ padding-top: 10px
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: 50% 50%;
-
-		}
+	}
 }
 
 @media screen and (max-width:760px) {
@@ -794,7 +814,28 @@ padding-top: 10px
 		height: 100%;
 		background-size: auto 600px;
 
-		}
+	}
+	
+	.indepth_jugador {
+		width: 280px;
+	}
+	
+	.indepth_jugador_info {
+		width: 125px;
+		float: left;
+		margin-right: 30px;
+	}
+	
+	.indepth_jugador_est {
+		width: 125px;
+		float: left;
+		display: block;
+		background-image: none;
+	}
+	
+	.indepth_campo{
+		background-image: none;
+	}
 	
 }
 
@@ -881,6 +922,10 @@ padding-top: 10px
 	.indepth_timeline{
 		width: 300px;
 		
+	}
+	
+	.indepth_tl_text{
+		max-width: 220px;
 	}
 	
 }
