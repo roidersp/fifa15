@@ -843,6 +843,7 @@ padding-top: 10px
 	
 	.indepth_timeline{
 		width: 300px;
+		
 	}
 	
 }
@@ -866,13 +867,13 @@ padding-top: 10px
 }
 
 
-@media screen and (max-height:560px) {
+@media screen and (max-height:500px) {
 	#indepth_cover{
 		max-height: 600px;
 	}
 	
 	#indepth_cover .indepth_parallax_back{
-		background-position: 50% bottom;
+		background-position: center bottom;
 	}
 	
 	#indepth_cover .indepth_titlle_container{
@@ -886,7 +887,7 @@ padding-top: 10px
 	}
 	
 	#indepth_cover .indepth_parallax_back{
-		background-position: 50% bottom;
+		background-position: center bottom;
 	}
 	
 	#indepth_cover .indepth_titlle_container{
