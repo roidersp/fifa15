@@ -221,6 +221,18 @@ padding-top: 10px
 	background-image: url(../images/Escudo_Axel.png);
 }
 
+#indepth_vocho .indepth_jugador_info{
+	background-image: url(../images/Escudo_Vocho.png);
+}
+
+#indepth_turri .indepth_jugador_info{
+	background-image: url(../images/Escudo_turri.png);
+}
+
+#indepth_erick .indepth_jugador_info{
+	background-image: url(../images/Escudo_erick.png);
+}
+
 
 .indepth_jugadores{
 	max-width: 840px;
@@ -240,6 +252,7 @@ padding-top: 10px
 	background-size: cover;
 	background-position: center top;
 	color: white;
+	background-color: #1f232d;
 }
 
 .indepth_seprador{
@@ -248,7 +261,7 @@ padding-top: 10px
 	height: 3px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	margin: 20px auto;
 }
 
@@ -487,6 +500,7 @@ padding-top: 10px
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:50px 0px;
+	background-color: #180f21;
 }
 
 .indepth_twitch_cont{
@@ -625,7 +639,8 @@ padding-top: 10px
 	background-color: #121212;
 	background-position: center center;
 	margin: auto;
-	
+	background-color: #191c22;
+	padding: 40px 0;
 }
 
 .indepth_timeline{
@@ -719,6 +734,17 @@ padding-top: 10px
 	.indepth_jugador{
 		margin: 0px 20px;
 	}
+	
+	.indepth_break .indepth_page_body{
+		height: 100%;
+		background-size: auto 800px;
+		top: 0px;
+		position: relative;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: 50% 50%;
+
+		}
 }
 
 @media screen and (max-width:760px) {
@@ -759,6 +785,17 @@ padding-top: 10px
 	.indepth_timeline{
 		width: 500px;
 	}
+	
+	.indepth_break{
+		height: 600px;
+	}
+	
+	.indepth_break .indepth_page_body{
+		height: 100%;
+		background-size: auto 600px;
+
+		}
+	
 }
 
 @media screen and (max-width:600px) {
