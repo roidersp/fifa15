@@ -19,21 +19,32 @@
 .indepth_page_content{
 	background-color:  white;
 	position: relative;
+	
 }
 
 #com{
 	background: white;
 }
 
+.indepth_page_content .indepth_title{
+	font-size:16px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 600;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: white;
+}
+
 .indepth_page_body{
 	bottom: 0px;
 	left: 0px;
 	margin: 0 auto;
-	position: absolute;
+	position: relative;
 	right: 0px;
 	top: 0px;
 	max-width: 1440px;
 	z-index: 2;
+	padding: 60px 0;
 }
 
 #indepth_cover{
@@ -52,6 +63,11 @@
 	background-size: 1440px auto;
 	max-width: 1440px;
 	width: 100%;
+	padding: 0;
+}
+
+#indepth_intro .indepth_page_body{
+	position: absolute;
 }
 
 #indepth_cover .indepth_titlle_container{
@@ -206,4 +222,371 @@ padding-top: 10px
 
 #indepth_page1{
 	background-image: url(../images/Fondo_Info.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center top;
+	color: white;
+}
+
+.indepth_seprador{
+	background-image: url(../images/Division_subtitulo.png);
+	width: 738px;
+	height: 3px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 20px auto;
+}
+
+.indepth_tabla_container{
+	width: 740px;
+	display: table;
+	margin: auto;
+}
+
+.indepth_table_info_team{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.indepth_tabla_header{
+	width: 100%;
+	height: 50px;
+	background-color:rgba(15, 18, 26, 0.75);
+}
+
+.indepth_tabla_header_left{
+	float: left;
+	line-height: 50px;
+	margin-left: 20px;
+}
+
+.indepth_tabla_header_r{
+	float: right;
+	margin-right: 20px;
+}
+
+.indepth_yellow{
+	color: #e3a922;
+}
+
+.indepth_monedas{
+	width: 20px;
+	height: 18px;
+	background-image: url(../images/Monedas.png);
+	margin-right: 20px;
+	float: left;
+	margin-top: 16px;
+}
+
+.indepth_monedas_num{
+	float: left;
+	line-height: 50px;
+}
+
+.indepth_info_title{
+	color: #e3a922;
+}
+
+.indepth_tabla_info_content{
+	background-color:rgba(15, 18, 26, 0.60);
+	display: table;
+	height: 230px;
+}
+
+.indepth_info_image{
+	text-align: center;
+	height: 145px;
+}
+
+.indepth_tabla_cont{
+	float: left;
+}
+
+#indepth_info_escudo{
+	width: 220px;
+	
+}
+
+.indepth_info_sep{
+	height: 230px; 
+	width: 1px;
+	float: left;
+	background-image: url(../images/Division_bloque1.png);
+	background-position: center bottom;
+}
+
+#indepth_info_uniforme{
+	width: 220px;
+}
+
+#indepth_info_estadio{
+	width: 298px;
+}
+ .indepth_info_image{
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#indepth_info_escudo .indepth_info_image{
+	background-image: url(../images/Escudo_sounders.png);
+	background-size: 56px 82px;
+}
+
+#indepth_info_uniforme .indepth_info_image{
+	background-image: url(../images/Uniforme_sounders.png);
+	background-size: 49px 84px;
+}
+
+#indepth_info_estadio .indepth_info_image{
+	background-image: url(../images/Estadio_mestalla.png);
+	background-size: 185px 84px;
+}
+
+.indepth_est_partidos{
+	width: 100%;
+	height: 100px;
+	margin-top: 15px;
+}
+
+.indepth_est_partidos_header{
+	width: 147.2px;
+	text-align: center;
+	float: left;
+}
+
+.indepth_est_head_item_up{
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	background-color:rgba(15, 18, 26, 0.75);
+	line-height: 50px;
+}
+
+.indepth_est_head_item_down{
+	background-color:rgba(15, 18, 26, 0.60);
+	height: 50px;
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.indepth_est_partidos_sep{
+	width: 1px;
+	float: left;
+	height: 100%;
+	background-image: url(../images/Division_bloque2.png);
+}
+
+.indepth_tabla_objetivos{
+	width: 100%;
+	display: inline-block;
+	margin-top: 15px;
+	
+}
+
+.indepth_tabla_objetivos_head{
+	width: 100%;
+	height: 70px;
+	background-color:rgba(15, 18, 26, 0.75);
+	color: #e3a922;
+	line-height: 70px;
+	text-align: left;
+}
+
+.indepth_tabla_objetivos_head span{
+	margin-left: 100px;
+	text-align: left;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.indepth_tabla_objetivos_item{
+	width: 100%;
+	text-align: left;
+	padding: 16px 0px;
+	
+}
+
+.itema{
+	background-color:rgba(15, 18, 26, 0.60);
+}
+
+.itemb{
+	background-color:rgba(15, 18, 26, 0.75);
+}
+
+.indepth_tabla_objetivos_itemin{
+	width: 530px;
+	padding-right: 10px;
+	margin: auto;
+	
+}
+
+.indepth_done{
+	background-image: url(../images/Palomita_objetivos.svg);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+#indepth_break_1 .indepth_parallax_back{
+	background-image: url(../images/Anuncio.jpg);
+}
+
+.indepth_break{
+		height: 800px;
+}
+
+.indepth_break .indepth_page_body{
+	height: 100%;
+	background-size: cover;
+	top: 0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+
+}
+
+#indepth_page2{
+	background-image: url(../images/Fondo_twitch.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 1440px auto;
+	padding:50px 0px;
+}
+
+.indepth_twitch_cont{
+	width: 740px;
+	margin: auto;
+	display: table;
+	border: 10px solid #121213;
+	margin-bottom: 20px;
+}
+
+.indepth_twitch{
+	position: relative;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	margin: auto;
+	padding-top: 10%;
+}
+
+.indepth_twitch iframe
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.indepth_siguemos_cont{
+	display: table;
+	margin: auto;
+}
+
+.indepth_siguemos_text{
+	color: white;
+	font-size: 18px;
+	width: 190px;
+	background-color: #65459B;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.indepth_flechita_siguemos{
+	width: 15px;
+	margin: auto;
+	margin-top: -3px;
+	height: 15px;
+	background-image: url(../images/Siguenos.svg);
+}
+
+.indepth_siguenos_juan{
+	margin-top: 10px;
+	width: 40px;
+	height: 50px;
+	background-image: url(../images/Juan.svg);
+	background-size: 100% 100%;
+	background-position: center center;
+	margin: auto;
+}
+
+#indepth_page3{
+	background: #121212;
+	padding: 50px 0px;
+}
+.indepth_quotes_cont{
+	width: 1000px;
+	display: table;
+	margin: auto;
+}
+
+.indepth_quote_box{
+	display: table; 
+	float: left;
+	width: 480px;
+	margin: 0 10px;
+}
+
+.indepth_quote_text{
+	width: 100%;
+	min-height: 215px;
+	display: table;
+	background: #1d2029;
+}
+
+.indepth_quote_autor{
+	width: 100%;
+	height:  40px;
+	line-height: 40px;
+	color: #e3a922;
+	background: #161a20;
+}
+
+.indepth_quotes{
+	height: 50px;
+	width: 100%;
+	
+	
+	background-size: 40px auto;
+	background-repeat: no-repeat;
+}
+
+.indepth_quotes.up{
+	background-image: url(../images/Quote_abre.svg);
+	background-position: center bottom;
+}
+
+.indepth_quotes.down{
+	background-image: url(../images/Quote_cierra.svg);
+	background-position: center top;
+}
+
+.indepth_quote_center{
+	color: #c8c8d3;
+	text-align: center;
+	width: 100%;
+	height: 130px;
+	display: table;
+}
+
+.indepth_quote_cont_text{
+	padding: 20px;
+	display: table-cell;
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+#indepth_page4{
+	background-image: url(../images/Fondo_lineadetiempo.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: #121212;
+	min-height: 800px;
+	width: 600px;
+	margin: auto;
+	
 }
