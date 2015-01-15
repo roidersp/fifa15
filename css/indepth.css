@@ -3,7 +3,7 @@
 	position: relative;
 	overflow: hidden;
 	background-color: white;
-	font-family: 'Roboto';
+	font-family: 'Titillium Web Bold';
 	font-size: 19px;
 	margin: auto;
 }
@@ -431,6 +431,7 @@ padding-top: 10px
 
 #indepth_break_1 .indepth_parallax_back{
 	background-image: url(../images/Anuncio.jpg);
+	background-size: cover;
 }
 
 .indepth_break{
@@ -452,7 +453,7 @@ padding-top: 10px
 	background-image: url(../images/Fondo_twitch.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 1440px auto;
+	background-size: cover;
 	padding:50px 0px;
 }
 
@@ -579,14 +580,53 @@ padding-top: 10px
 	line-height: 30px;
 	vertical-align: middle;
 }
-
 #indepth_page4{
 	background-image: url(../images/Fondo_lineadetiempo.jpg);
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: #121212;
 	min-height: 800px;
-	width: 600px;
+	
 	margin: auto;
 	
 }
+
+.indepth_timeline_cont{
+	width: 600px;
+	margin: auto;
+	text-align: left;
+}
+
+.indepth_tl_icono{
+	width: 60px;
+	height: 60px;
+	background-image: url(../images/Icono_goles.svg);
+	float: left;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.indepth_tl_text{
+	display: table;
+	padding: 10px 0px;
+	float: left;
+}
+
+.indepth_tl_fecha{
+	color: #e4bb40;
+	font-family: 'Titillium Web Italic';
+	font-size: 18px;
+	margin-bottom: 4px;
+	line-height: 18px;
+	
+}
+
+.indepth_tl_dato{
+	color: white;
+	font-size: 18px;
+	line-height: 18px;
+}
+
