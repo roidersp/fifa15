@@ -1,13 +1,13 @@
 @font-face {
 	font-family: "Titillium Web Bold";
-	url('../fonts/TitilliumWeb-Bold.ttf');
+	url('../fonts/TitilliumWeb-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Titillium";
-	url('../fonts/TitilliumWeb-Regular.ttf');
+	font-family: "Titillium Regular";
+	url('../fonts/TitilliumWeb-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
