@@ -866,7 +866,7 @@ padding-top: 10px
 }
 
 
-@media screen and (max-height:570px) {
+@media screen and (max-height:560px) {
 	#indepth_cover{
 		max-height: 600px;
 	}
