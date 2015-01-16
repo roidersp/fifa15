@@ -24,8 +24,76 @@
 	
 }
 
+.indepth_share{
+		position: fixed;
+		right: 15px;
+		bottom: 20px;
+		z-index: 2000;
+		display: -webkit-inline-box;
+     display: -webkit-inline-flex;
+   display: -moz-inline-box;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
+		
+	}
+	
+	#drag{
+		display: none;
+		right: 3px;
+		top: 8px;
+		z-index: 2000;
+		
+	}
+	
+	.indepth_share_item{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: rgba(255, 255, 255, 0.2);
+		background-color: rgba(255, 255, 255, 0.4);
+		float: left;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: auto 20px ;
+		margin-left: 7px;
+		cursor: pointer;
+		margin-bottom: 5px;
+	}
+	
+	.indepth_share_item.facebook{
+		background-image: url(../images/boton_facebook.png);
+	}
+	
+	.indepth_share_item.facebook:hover{
+		background-color: #3660A4;
+	}
+	
+	.indepth_share_item.twitter{
+		background-image: url(../images/boton_twitter.png);
+	}
+	
+	.indepth_share_item.twitter:hover{
+		background-color: #02B2F7;
+	}
+	
+	
+	.indepth_share_item.whatsapp{
+		display: none;
+		background-image: url(../images/boton_whatsapp.png);
+	}
+	
+	.indepth_share_item.whatsapp:hover{
+		background-color: #85D86D;
+	}
+
 #com{
 	background: white;
+}
+
+#indepth_coments{
+	max-width: 800px;
+	margin: auto;
+	width: 100%;
 }
 
 .indepth_page_content .indepth_title{
@@ -50,7 +118,7 @@
 
 #indepth_cover{
 	background: #141414;
-	height: 670px;
+	height: 610px;
 }
 
 #indepth_cover .indepth_page_body{
@@ -72,7 +140,7 @@
 }
 
 #indepth_cover .indepth_titlle_container{
-	margin-top: 245px;
+	margin-top: 185px;
 	 color: #FFF;
 }
 
@@ -222,7 +290,7 @@ padding-top: 10px
 }
 
 #indepth_vocho .indepth_jugador_info{
-	background-image: url(../images/Escudo_Vocho.png);
+	background-image: url(../images/Escudo_vocho.png);
 }
 
 #indepth_turri .indepth_jugador_info{
@@ -258,11 +326,11 @@ padding-top: 10px
 .indepth_seprador{
 	background-image: url(../images/Division_subtitulo.png);
 	width: 738px;
-	height: 3px;
+	height: 1px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	margin: 20px auto;
+	margin: 15px auto;
 }
 
 .indepth_tabla_container{
@@ -465,6 +533,7 @@ padding-top: 10px
 	width: 530px;
 	padding-right: 10px;
 	margin: auto;
+	color: rgba(255, 255, 255, 0.6);
 	
 }
 
@@ -472,6 +541,7 @@ padding-top: 10px
 	background-image: url(../images/Palomita_objetivos.svg);
 	background-position: right center;
 	background-repeat: no-repeat;
+	color: rgba(255, 255, 255, 1);
 }
 
 #indepth_break_1 .indepth_parallax_back{
@@ -570,6 +640,7 @@ padding-top: 10px
 	width: 1000px;
 	display: table;
 	margin: auto;
+	margin-top: 30px;
 }
 
 .indepth_quote_box{
@@ -649,6 +720,7 @@ padding-top: 10px
 	display: table;
 	height: 100%;
 	position: relative;
+	margin-top: 30px;
 }
 
 .indepth_timeline_cont{
@@ -667,10 +739,11 @@ padding-top: 10px
 .indepth_timeline_m{
 	width: 100%;
 	display: table;
-	margin: 60px auto;
+	margin: 0px auto;
 	background: transparent;
 	z-index: 10;
 	position: relative;
+	
 }
 
 .indepth_timeline_bar{
@@ -928,6 +1001,14 @@ padding-top: 10px
 		max-width: 220px;
 	}
 	
+	.indepth_break{
+		height: 300px;
+	}
+	
+	#indepth_break_1 .indepth_parallax_back{
+		background-image: url(../images/Anuncio.jpg);
+		background-size: auto 320px;
+	}
 }
 
 @media screen and (max-width:385px) {
@@ -945,6 +1026,14 @@ padding-top: 10px
 	
 	#indepth_cover .indepth_subtitle{
 		font-size: 52px;
+	}
+	
+	#indepth_cover .indepth_titlle_container{
+		margin-top: 100px;
+	}
+	
+	#indepth_cover{
+		height: 500px;
 	}
 }
 
