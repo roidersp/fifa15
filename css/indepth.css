@@ -171,19 +171,17 @@
 }
 
 #indepth_cover .indepth_title{
-	font-size:60px;
-	line-height: 60px;
+	font-size:39px;
 	color:#FFF;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 700;
+	
 }
 
 #indepth_cover .indepth_subtitle{
-	font-size:62px;
-	line-height: 62px;
+	font-size:17px;
 	color:#FFF;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .indepth_parallax_back {
